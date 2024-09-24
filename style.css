@@ -1,0 +1,480 @@
+/* Общий шрифт для всего документа */
+* {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+  }
+
+  /*Обнуление значений по умолчанию*/
+  body, h1, h2, h3, h4, p {
+    margin: 0px;
+  }
+  /*Обнуление значений по умолчанию*/
+  button {
+    padding: 0px;
+    border: 0px;
+  }
+
+
+  /*ul*/
+  ul {
+    width: 590px;
+    height: 20px;
+    margin: 0px;
+    padding-inline-start: 0px;
+    margin-left: 572px;
+    margin-top: -30px;
+  }
+  /* Убрал маркеры со списка в хэдере */
+  li {
+    list-style-type: none;
+    display: inline-block;
+  }
+
+  /* Шрифт в хэдере + размеры хэдера*/
+  header {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20.43px;
+    width: 1540px;
+    height: 80px;
+    margin-top: 30px;
+    /*display: inline-flex; Чит-код РАЗОБРАТЬСЯ*/
+  }
+
+  /* Убрал подчеркивание из ссылок в хэдере, черный шрифт*/
+  a {
+    text-decoration: none;
+    color: #1C1C1C;
+  }
+
+  /* Цвет ссылки HOME В хэдере + подчеркивание + размеры*/
+  .home_link {
+    color: #3172B9;
+    text-decoration: underline;
+    width: 44px;
+    height: 20px;
+  }
+
+  /* Цвет шрифта кнопки FREE TRIAL + цвет фона*/
+  .free_trial_button {
+    color: #FFFFFF;
+    background-color: #3172B9;
+    width: 150px;
+    height: 50px;
+    margin-left: 52px;
+  }
+
+  /* Главный заголовок*/
+  h1 {
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 52px;
+    color: #1C1C1C;
+    width: 529px;
+    height: 104px;
+    padding-top: 113px;
+    padding-left: 185px;
+  }
+
+  /* Абзац в первом диве*/
+  .first_p_first_div {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24.8px;
+    color: #787878;
+    width: 471px;
+    height: 50px;
+    padding-top: 26px;
+    padding-left: 185px;
+  }
+
+  /* Кнопка FREE 30 DAY TRIAL*/
+  .button_first_div {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20.43px;
+    color: #FFFFFF;
+    background-color: #3172B9;
+    width: 250px;
+    height: 58px;
+    margin-top: 34px;
+    margin-left: 185px;
+  }
+
+  /* Текст около значка со щитом*/
+  .second_p_first_div {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 17.05px;
+    color: #787878;
+    width: 143px;
+    height: 17px; /*Разобраться!!!!!*/
+    padding-left: 225px;
+    padding-top: 14px;
+  }
+
+  /* Заголовки в section (services, articles, clients)*/
+  h2 {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46.8px;
+    color: #1C1C1C;
+  }
+
+  /* Текст под services*/
+  .p_after_services {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.79px;
+    color: #787878;
+    width: 589px;
+    height: 22px;
+    margin: auto;
+    margin-top: 21px;
+  }
+
+  /* Подзаголовки
+  services (legacy, health, funeral, legal)
+  articles (jurisdiction, rights, consulting, contactors)
+  */
+  h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1C1C1C;
+  }
+
+  /* Текст под подзаголовками
+  services (legacy, health, funeral, legal)
+  articles (jurisdiction, rights, consulting, contactors)
+  */
+  .p_in_cards {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #787878;
+    width: 210px;
+    height: 63px;
+    margin: auto;
+    margin-top: 15px;
+  }
+
+  /* Даты в Articles*/
+  .date {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #787878;
+    width: 59px;
+    height: 15px;
+  }
+
+  /* Текст в Clients и Clients */
+  .p_clients_contacts {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25.2px;
+    color: #787878;
+    width: 281px;
+    height: 150px;
+  }
+
+  /* Имена + заголовки в контактах */
+  h4 {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 30.6px;
+    color: #1C1C1C;
+    height: 31px;
+  }
+
+  /* Фоновая картинка первого Дива + размеры дива*/
+  .div_bg {
+    background-image: url(./firstDivBackground.svg);
+    width: 1540px;
+    height: 550px;
+    margin-top: 0px;
+  }
+
+  /* Размеры лого Леоник*/
+  .lionic_logo {
+    width: 115px;
+    height: 44px;
+    margin-left: 186px;
+    margin-top: 6px;
+  }
+
+  /* Размеры ссылки Services в хедере*/
+  .services_link {
+    width: 59px;
+    height: 20px;
+    margin-left: 52px;
+  }
+
+  /* Размеры ссылки Articles в хедере*/
+  .articles_link {
+    width: 55px;
+    height: 20px;
+    margin-left: 52px;
+  }
+
+  /* Размеры ссылки Clients в хедере*/
+  .clients_link {
+    width: 50px;
+    height: 20px;
+    margin-left: 52px;
+  }
+
+  /* Размеры ссылки Contacts в хедере*/
+  .contacts_link {
+    width: 64px;
+    height: 20px;
+    margin-left: 52px;
+  }
+
+  /* Размеры ссылки Join us в хедере*/
+  .joinUs_link {
+    width: 49px;
+    height: 20px;
+    margin-left: 52px;
+  }
+
+  /* Секция Services*/
+  .services_section {
+    width: 1170px;
+    height: 464px;
+    margin-left: 185px;
+    margin-top: 87px;
+  }
+
+  /*Заголовок Services*/
+  .services_title {
+    width: 132px;
+    height: 47px;
+    margin: auto;
+  }
+
+  /*Карточки в Services */
+  .services_card {
+    width: 270px;
+    height: 320px;
+    border: 1px solid #E4E4E4;
+    text-align: center;
+  }
+
+  /* Картинка Legacy*/
+  .legacy_img {
+    width: 68px;
+    height: 66px;
+    margin-top: 61px;
+  }
+
+  /* Заголовок Legacy */
+  .legacy_title {
+    width: 117px;
+    height: 26px;
+    margin: auto;
+    margin-top: 23px;    
+  }
+
+  /* Картинка Health*/
+  .health_img {
+    width: 68px;
+    height: 64px;
+    margin-top: 61px;
+  }
+
+  /* Заголовок Health */
+  .health_title {
+    width: 115px;
+    height: 26px;
+    margin: auto;
+    margin-top: 23px;  
+  }
+
+  /* Картинка Funeral*/
+  .funeral_img {
+    width: 64px;
+    height: 64px;
+    margin-top: 61px;
+  }
+
+  /* Заголовок Funeral */
+  .funeral_title {
+    width: 192px;
+    height: 26px;
+    margin: auto;
+    margin-top: 23px;  
+  }
+
+  /* Картинка Legal*/
+  .legal_img {
+    width: 65px;
+    height: 65px;
+    margin-top: 61px;
+  }
+
+  /* Заголовок Legal */
+  .legal_title {
+    width: 162px;
+    height: 26px;
+    margin: auto;
+    margin-top: 23px;  
+  }
+
+  /* Секция Articles*/
+  .articles_section {
+    width: 1920px;
+    height: 567px;
+    padding-top: 1000px; /*Для просмотра!!!!*/
+  }
+
+  /*Заголовок Articles*/
+  .articles_title {
+    width: 118px;
+    height: 47px;
+  }
+
+  /*Карточки в Articles */
+  .articles_card {
+    width: 570px;
+    height: 180px;
+    padding-top: 200px; /*Для просмотра!!!!*/
+  }
+
+  /* Заголовок Jurisdiction */
+  .jurisdiction_title {
+    width: 109px;
+    height: 26px;
+  }
+
+  /* Заголовок Rights and obligations */
+  .rights_title {
+    width: 214px;
+    height: 26px;
+  }
+
+  /* Заголовок Consulting */
+  .consulting_title {
+    width: 103px;
+    height: 26px;
+  }  
+
+  /* Заголовок Contactors */
+  .contactors_title {
+    width: 115px;
+    height: 26px;
+  }    
+
+  /* Секция Clients*/
+  .clients_section {
+    width: 1920px;
+    height: 700px;
+    padding-top: 1200px; /*Для просмотра!!!!*/
+  }
+
+  /*Заголовок Cliens*/
+  .clients_title {
+    width: 109px;
+    height: 47px;
+  }
+
+  /*Карточки в Clients */  
+  .clients_card {
+    width: 370px;
+    height: 362px;
+  }
+
+  /*Имя Джон */  
+  .john_title {
+    width: 130px;
+  }
+
+  /*Имя Лиза */  
+  .elizabeth_title {
+    width: 135px;
+  }
+
+  /*Имя Робин */  
+  .robin_title {
+    width: 109px;
+  }
+
+  /* Customer рамка 2 КЛАССА + p_clients_contacts!!!! размеры*/  
+  .customer_size {
+    width: 65px;
+    height: 25px;
+  }
+
+  /* Секция Contacts*/
+  .contacts_section {
+    width: 1920px;
+    height: 476px;
+    padding-top: 500px; /*Для просмотра!!!!*/
+  }
+
+  /*Заголовок Cliens*/
+  .contacts_title {
+    width: 142px;
+    height: 47px;
+  }
+
+  /*Карточка Visit Us */  
+  .visit_us_card {
+    width: 214px;
+    height: 159px;
+  }
+
+  /*Карточка Call Us */  
+  .call_us_card {
+    width: 121px;
+    height: 159px;
+  }
+
+  /*Карточка Email Us */  
+  .email_us_card {
+    width: 170px;
+    height: 159px;
+  }
+
+  /*Заголовок Visit Us */  
+  .visit_us_title {
+    width: 61px;
+    height: 31px;
+  }
+
+  /*Заголовок Call Us */  
+  .call_us_title {
+    width: 56px;
+    height: 31px;
+  }
+
+  /*Заголовок Email Us */  
+  .email_us_title {
+    width: 71px;
+    height: 31px;
+  }
+
+  /*Абзац после Визит Ас*/
+  .p_visit_us_size {
+    width: 214px;
+    height: 50px;
+  }
+
+  /*Абзац каждого номера телефона*/
+  .p_number_size {
+    width: 121px;
+    height: 25px;
+  }
+
+  /*Абзац каждого email*/
+  .p_email_size {
+    width: 170px;
+    height: 25px;
+  }
+
+  /* Картинки Contacts */
+  .contacts_img {
+    width: 29px;
+    height: 29px;
+  }

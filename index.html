@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>test2</title>
+</head>
+<body>
+    <header>
+            <a href="#">
+                <img class="lionic_logo" src="./logo.svg" alt="Лого">
+            </a>
+            <nav>
+                <ul>
+                    <li>
+                        <a class="home_link" href="#">Home</a>
+                    </li>
+                    <li>
+                        <a class="services_link" href="#">Services</a>
+                    </li>
+                    <li>
+                        <a class="articles_link" href="#">Articles</a>
+                    </li>
+                    <li>
+                        <a class="clients_link" href="#">Clients</a>
+                    </li>
+                        <a class="contacts_link" href="#">Contacts</a>
+                    <li>   
+                        <a class="joinUs_link" href="#">Join us</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="free_trial_button">FREE TRIAL</button>
+    </header>
+    <!-- ДЗ №1 -->
+    <main> <!--header закончился, создал main для отображения основной информации сайта -->
+        <div class="div_bg"> <!--создал первый div для блока с информацией о 30 дневном пробном периоде -->
+            <h1>
+                This is a simply a smarter way to make your legal online
+            </h1> <!-- закрыл основной заголовок -->
+            <p class="first_p_first_div">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.
+            </p>
+            <button class="button_first_div">
+                FREE 30 DAY TRIAL
+            </button> <!--добавил кнопку -->
+            <p class="second_p_first_div">
+                <img src="./sslLogo.svg" alt="Лого ССЛ"> <!-- добавил логотип SSL. указал относительный путь -->
+                SSL SECURED CONNECTION
+            </p>
+        </div> <!-- закрываю первый div -->
+        <section class="services_section"> <!-- создал секцию для информации о сервисах -->
+            <h2 class="services_title">
+                Services
+            </h2> <!-- выбрал h2 для текста -->
+            <p class="p_after_services">
+                Lionic guides you on making decisions for all aspects of your end-of-life plans.
+            </p> <!-- выбрал h3 для текста -->
+            <article class="services_card"> <!-- article для легаси -->
+                <img class="legacy_img" src="./legacyLogo.svg" alt="Лого Легаси"> <!-- лого первого дива-->
+                <h3 class="legacy_title">
+                    Your Legacy
+                </h3> <!-- заголовок первого дива-->
+                <p class="p_in_cards">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                </p> <!-- третий абзац h5 -->
+            </article>
+            <article class="services_card"> <!-- article для хелс  -->
+                <img class="health_img" src="./healthLogo.svg" alt="Лого Хелс"> <!-- лого второго дива-->
+                <h3 class="health_title">
+                    Your Health
+                </h3> <!-- заголовок второго дива-->
+                <p class="p_in_cards">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                </p> <!-- третий абзац h5 -->
+            </article>
+            <article class="services_card"> <!-- article для фунерал энд мемориал  -->
+                <img class="funeral_img" src="./funeralAndMemorialLogo.svg" alt="Лого Фунерал и Мемориал"> <!-- лого третьего дива-->
+                <h3 class="funeral_title">
+                    Funeral & Memorial
+                </h3> <!-- заголовок третьего дива -->
+                <p class="p_in_cards">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                </p> <!-- третий абзац h5 -->
+            </article>
+            <article class="services_card"> <!-- article для легал энд финансиал  -->
+                <img class="legal_img" src="./legalAndFinancialLogo.svg" alt="Лого Легал энд Финансиал"> <!-- лого четвертого дива-->
+                <h3 class="legal_title">
+                    Legal & Financial
+                </h3> <!-- заголовок четвертого дива-->
+                <p class="p_in_cards">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                </p> <!-- третий абзац h5 -->
+            </article>
+        </section> <!-- закрыл секцию с сервисами-->
+        <!-- ДЗ №2 -->
+        <section class="articles_section"> <!-- Секция Articles-->
+            <h2 class="articles_title">
+                Articles
+            </h2> <!--Заголовок секции Артиклес-->
+            <article class="articles_card"> <!-- Артикль Юрисдикшн-->
+                <img src="./jurisdictionLogo.svg" alt="Лого Юрисдикшн">
+                <p class="date">
+                    15 Nov 2021
+                </p>
+                <h3 class="jurisdiction_title">
+                    Jurisdiction
+                </h3>
+                <p class="p_in_cards">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                </p>
+            </article>
+            <article class="articles_card"> <!-- Артикль райтс энд облигейшнс-->
+                <img src="./rightsAndObligationsLogo.svg" alt="Лого Райтс энд облигейшнс">
+                <p class="date">
+                    29 Nov 2021
+                </p>
+                <h3 class="rights_title">
+                    Rights and obligations
+                </h3>
+                <p class="p_in_cards">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                </p>
+            </article>
+            <article class="articles_card"> <!-- Артикль консалтинг-->
+                <img src="./consultingLogo.svg" alt="Лого Консалтинг">
+                <p class="date">
+                    28 Nov 2021
+                </p>
+                <h3 class="consulting_title">
+                    Consulting
+                </h3>
+                <p class="p_in_cards">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                </p>
+            </article>
+            <article class="articles_card"> <!-- Артикль контакторс-->
+                <img src="./contactorsLogo.svg" alt="Лого Контакторс">
+                <p class="date">
+                    11 Dec 2021
+                </p>
+                <h3 class="contactors_title">
+                    Contactors
+                </h3>
+                <p class="p_in_cards">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                </p>
+            </article>
+        </section> <!-- Закрыл секцию Articles-->
+        <section class="clients_section"><!-- Открыл секцию Clients-->
+            <h2 class="clients_title">
+                Clients
+            </h2>
+            <article class="clients_card"> <!-- Артикль Джон-->
+                <p class="p_clients_contacts">
+                    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit odio dignissim qui blandit molestie consequat.
+                </p>
+                <img src="./johnArmstrongLogo.svg" alt="Лого Джон">
+                <h4 class="john_title">
+                    John Armstrong
+                </h4>
+                <p class="p_clients_contacts customer_size">
+                    Customer
+                </p>
+            </article>
+            <article class="clients_card"> <!-- Артикль Элизабет-->
+                <p class="p_clients_contacts">
+                    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit odio dignissim qui blandit molestie consequat.
+                </p>
+                <img src="./elizabethMartinLogo.svg" alt="Лого Элизабет">
+                <h4 class="elizabeth_title">
+                    Elizabeth Martin
+                </h4>
+                <p class="p_clients_contacts customer_size">
+                    Customer
+                </p>
+            </article>
+            <article class="clients_card"> <!-- Артикль Робин-->
+                <p class="p_clients_contacts">
+                    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit odio dignissim qui blandit molestie consequat.
+                </p>
+                <img src="./robinSoutbyLogo.svg" alt="Лого Робин">
+                <h4 class="robin_title">
+                    Robin Soutby
+                </h4>
+                <p class="p_clients_contacts customer_size">
+                    Customer
+                </p>
+            </article>
+        </section> <!-- Закрыл секцию Clients-->
+        <section class="contacts_section"> <!-- Секция Contacts-->
+                <h2 class="contacts_title">
+                    Contacts
+                </h2>
+                <article class="visit_us_card"> <!-- Артикль Локейшн-->
+                    <img class="contacts_img" src="./locationLogo.svg" alt="Лого Локейшн">
+                    <h4 class="visit_us_title">
+                        Visit Us
+                    </h4>
+                    <p class="p_clients_contacts p_visit_us_size">
+                        Duis autem vel eum iriure dolor in hendrerit in vulputate velit.
+                    </p>
+                </article>
+                <article class="call_us_card"> <!-- Артикль Фон-->
+                    <img class="contacts_img" src="./phoneLogo.svg" alt="Лого Фон">
+                    <h4 class="call_us_title">
+                        Call Us
+                    </h4>
+                    <p class="p_clients_contacts p_number_size">
+                        +7(987)654-32-10
+                    </p>
+                    <p class="p_clients_contacts p_number_size">
+                        +7(123)456-78-90
+                    </p>
+                </article>
+                <article class="email_us_card"> <!-- Артикль Мэйл-->
+                    <img class="contacts_img" src="./mailLogo.svg" alt="Лого Мэйл">
+                    <h4 class="email_us_title">
+                        Email Us
+                    </h4>
+                    <p class="p_clients_contacts p_email_size">
+                        example@example.com
+                    </p>
+                    <p class="p_clients_contacts p_email_size">
+                        support@example.com
+                    </p>
+                </article>
+        </section> <!-- Закрыл секцию Contacts-->
+    </main> <!-- закрыл main-->
+    <footer></footer>
+</body>
+</html>
